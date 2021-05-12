@@ -15,6 +15,7 @@ public class StuffController {
     public ResponseEntity<?> getAllStuffs(){
         System.out.println("first");
         System.out.println("second");
+        System.out.println("third");
         return new ResponseEntity<>(HttpStatus.OK);
     }
 
