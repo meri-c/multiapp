@@ -13,6 +13,7 @@ public class StuffController {
 
     @GetMapping
     public ResponseEntity<?> getAllStuffs(){
+        System.out.println("first");
         return new ResponseEntity<>(HttpStatus.OK);
     }
 
