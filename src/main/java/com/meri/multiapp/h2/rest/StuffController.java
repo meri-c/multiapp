@@ -14,6 +14,7 @@ public class StuffController {
     @GetMapping
     public ResponseEntity<?> getAllStuffs(){
         System.out.println("first");
+        System.out.println("second");
         return new ResponseEntity<>(HttpStatus.OK);
     }
 
