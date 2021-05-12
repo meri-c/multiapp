@@ -22,7 +22,6 @@ public class StuffController {
 
     @GetMapping("/{id}")
     public ResponseEntity<?> getStuffById(@PathVariable("id") int id){
-        System.out.println("one more branch");
         return new ResponseEntity<>(id, HttpStatus.OK);
     }
 
